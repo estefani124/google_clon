@@ -1,0 +1,100 @@
+*{
+    margin:0;
+    padding: 0;
+  
+    
+}
+
+.navbar{
+    display: flex;
+    height: 48px;
+    padding: 8px;
+    align-items: center;
+    justify-content: end;
+    color: #000;
+    font-size: 13px;
+}
+
+.navbar__elements{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar__ul{
+    display: flex;
+   justify-content: center;
+   padding-right: 15px;
+}
+
+
+.navbar__li{
+    padding-left: 15px;
+    list-style: none;
+}
+
+
+.navbar__media{
+
+    display: flex;
+    align-items: center;/* alinea los elementos verticalmente */
+
+    justify-content: center;/*alinea los elementos horizontalmente  */
+}
+
+
+.navbar__menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+}
+
+
+.navbar_imagemenu{
+    fill:#5f6368;
+    width: 24px;
+    height: 24px;
+}
+
+.navbar_profile{
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-image: url("../assets/img/circle.svg"), url("https://lh3.googleusercontent.com/ogw/AF2bZyiSkyF0W4YBW03Q8TSfEMfpC2u3qRe08ttntjM2G6vEC7Y=s32-c-mo");
+    
+    background-position: center;
+    background-size: contain, cover;
+
+}
+/* _____Sección Main: Contenedor principal____ */
+main {display: flex;
+flex-direction: column; /* Cuando se usa esta propiedad la forma de alineación vertical y horizontal se invierte */
+align-items: center; /* Alinea los elementos horizontalmente */ 
+justify-content: center; /* Alinea los elementos verticalmente*/
+
+}
+
+.main__logo{
+    width: 272px;
+    height: 200px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction:column;
+    justify-content:end;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
