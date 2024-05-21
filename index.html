@@ -1,40 +1,90 @@
 <!DOCTYPE html>
 <html lang="es"><!-- idioma de la pagina -->
+
 <head>
     <meta charset="UTF-8"><!-- codificacion de texto -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- sirve para ajustar la pantalla en todos los dispositivo -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- sirve para ajustar la pantalla en todos los dispositivo -->
     <title>Nueva pestaña</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
     <header>
         <nav class="navbar"><!-- Bloque -->
             <div class="navbar__div"></div><!-- Elemento -->
             <div class="navbar__elements">
-           <ul class="navbar__ul">
-              <li class="navbar__li">Gmail</li> 
-              <li class="navbar__li">Imágenes</li>
+                <ul class="navbar__ul">
+                    <li class="navbar__li">Gmail</li>
+                    <li class="navbar__li">Imágenes</li>
+                </ul>
 
-
-           </ul>
-
-           <div class="navbar__media">
-            <div class="navbar__menu">
-            <svg class="navbar_imagemenu" focusable="false" viewBox="0 0 24 24"><path d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z"></path><image src="https://ssl.gstatic.com/gb/images/bar/al-icon.png" alt="" height="24" width="24" style="border:none;display:none \9"></image></svg>></div>
-            <div class="navbar__profile"></div>
-           
-           </div>
-            </div><!-- elemento -->
+                <div class="navbar__media">
+                    <div class="navbar__menu">
+                        <div class="narvar__ball">
+                            <svg class="navbar_imagemenu" focusable="false" viewBox="0 0 24 24">
+                                <path
+                                    d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z">
+                                </path>
+                                <image src="https://ssl.gstatic.com/gb/images/bar/al-icon.png" alt="" height="24"
+                                    width="24" style="border:none;display:none \9"></image>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="navbar__profile"></div>
+    
+                </div><!-- elemento -->
         </nav>
     </header>
     <main>
         <section class="main_logo">
-            <img src="assets/img/google_icon.svg"  alt="">
+            <img src="assets/img/google.png" alt="">
+
+
         </section>
-        <section class="main_search">
+        <section class="main__search">
+            <img class="main__img" img src="assets/img/icon_search.svg" alt="">
+            <input class="main__input" type="text">
+            <img class="main__img main__img--icons" src="assets/img/icon_microphone.svg" alt="">
+            <img class="main__img main__img--icons" src="assets/img/camera.svg" alt="">
+
         </section>
-    </section>
+        <div class="container">
+        <div class="tile"><div class="title__icon"  
+        ><img draggable="false"img src="assets/img/logo.png">
+        </div>
+        <div class="title__micro  title__microsoft">
+        <spa>Microsoft 365</span>
+        </div></div>
+        </div> <div class="tile__1"><div class="title__icon" >
+        <img draggable="false"img src="assets/img/meet.png">
+        <div class="title__meet  title__microsoft"> </div>          
+        </div>
+        <spa class="title__micro"></spa>Google meet </span>
+        <div></div>
+        </div><div class="tile__2" ><div class="title__icon1"> 
+        <img draggable="false" img src="assets/img/openai.png">
+        <div class=" title__microsoft"> </div>  
+        </div>
+        <div></div>
+        <div  class="p"></div>
+        </spa class="title__meet" ></span>OpenAI</span>
+         <div></div>
+         <div><div class="tile__3"><div class="title__icon3">
+         <img class="l" draggable="false" img src="assets/img/add.svg">
+         <div class="title__meet">
+         
+         <div class="m"></div>
+         <spa  class="title__meet"></spa>Agregar acceso directos</span>
+<div id="cuztomizeicon" >
+<div class="cuztomize__text">Personalizar Chrome</div>
+<div class="icon__pencil"><img  class="icon__pencil" src="assets/img/icon_pencil.svg" ></div>
+
+    </div class="container__open" img src="chrome://favicon2/?size=24&scaleFactor=1x&showFallbackMonogram=&pageUrl=https%3A%2F%2Fwww.office.com%2F%3Ffrom%3DHomescreen" alt="">
+    </div>
+    <section>
     </main>
     <footer></footer>
 </body>
+
 </html>
